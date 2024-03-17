@@ -1,0 +1,15 @@
+services:
+
+  db-inventory:
+    container_name: db-products
+    image: postgres:15.2
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: db_products
+      POSTGRES_USER: pepe
+      POSTGRES_PASSWORD: pepe123
+    ports:
+      - 5431:5431
+    expose:
+      - 5431
+    command: -p 5431
