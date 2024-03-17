@@ -33,7 +33,7 @@ public class ProductController {
         return this.productService.create(product);
     }
 
-    @PostMapping("/{id}")
+    @PutMapping("/{id}")
     @ResponseStatus(HttpStatus.OK)
     public Product update(@PathVariable Long id,@RequestBody Product product){
         return this.productService.update(id, product);
