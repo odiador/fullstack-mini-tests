@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>co.edu.uniquindio</groupId>
 	<artifactId>crud-productos</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>crud-productos</name>
 	<description>Sirve para guardar productos</description>
 	<properties>
